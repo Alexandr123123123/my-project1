@@ -62,7 +62,7 @@ const Battle = () => {
     function userAbc() {
         if (user1.star > user2.star) {
             return [
-                { ...user1, abc: 'abc1' },
+                { ...user1, abc: 'abc' },
                 { ...user2, abc: 'abc2' },
             ];
         }
